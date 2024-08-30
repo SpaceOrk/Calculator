@@ -46,7 +46,6 @@ function calculateResult() {
     firstOperand = result;
 }
 
-// Обработчики событий для кнопок
 document.querySelectorAll('.second_str button, .third_str button, .fourth_str button, .fifth_str button').forEach(button => {
     button.addEventListener('click', () => {
         const value = button.textContent;
